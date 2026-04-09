@@ -7,34 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace CRUDMahasiswaADO
 {
     public partial class Form1 : Form
     {
-        public Form1()
-        {
-            InitializeComponent();
-        }
+        private readonly SqlConnection conn;
+        private readonly string connectionString =
+        "Data Source=LAPTOP-9IBDVE0G\\RANGGAALFARIZZY;Initial Catalog=DBAkademikADO;Integrated Security=True";
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnConnect_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
     }
 }
