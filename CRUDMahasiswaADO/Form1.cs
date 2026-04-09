@@ -37,5 +37,11 @@ namespace CRUDMahasiswaADO
                 MessageBox.Show("Koneksi gagal: " + ex.Message);
             }
         }
+
+        private void btnConnect_Click(object sender, EventArgs e)
+        {
+            ConnectDatabase();
+        }
+
     }
 }
